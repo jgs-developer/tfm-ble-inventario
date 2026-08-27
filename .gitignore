@@ -1,0 +1,17 @@
+# Entorno virtual
+venv/
+
+# Bytecode y cachés de Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Variables de entorno reales (mantener solo .env.example)
+.env
+
+# Base de datos local
+*.db
+!ble_inventory.db
+
+# Sistema
+.DS_Store
