@@ -23,9 +23,10 @@ Dispositivos BLE → Agente (Python + Bleak) → API REST (FastAPI) → Base de 
 | **Base de datos** (`db/`) | Persistencia (SQLite vía SQLAlchemy) |
 | **Dashboard** (`dashboard/`) | Consulta visual del inventario, sin conocimientos técnicos |
 
-**Tecnologías**: Python 3.12 · `bleak` · `FastAPI` · `SQLAlchemy` + SQLite · `Streamlit`
+**Tecnologías**: `Python 3.12` · `bleak` · `FastAPI` · `SQLAlchemy` + `SQLite` · `Streamlit`
 
 ## Instalación y puesta en marcha
+Primero descarga toda la rama, para que no falte ningún archivo, si no el programa no arrancará
 
 ```bash
 python -m venv venv
