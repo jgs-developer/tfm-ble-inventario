@@ -26,7 +26,7 @@ Dispositivos BLE → Agente (Python + Bleak) → API REST (FastAPI) → Base de 
 **Tecnologías**: `Python 3.12` · `bleak` · `FastAPI` · `SQLAlchemy` + `SQLite` · `Streamlit`
 
 ## Instalación y puesta en marcha
-Primero descarga toda la rama, para que no falte ningún archivo, si no el programa no arrancará. Para la base de datos, podrás usar ya el inventario que hay, con un ejemplo de prueba, o crear el tuyo propio (para ello tendrás que borrar el ble_inventory.db
+Primero descarga toda la rama, para que no falte ningún archivo, si no el programa no arrancará. Para la base de datos, podrás usar ya el inventario que hay, con un ejemplo de prueba, o crear el tuyo propio (para ello tendrás que borrar el ble_inventory.db).
 
 ```bash
 python -m venv venv
